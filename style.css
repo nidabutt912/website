@@ -1,0 +1,110 @@
+/* .box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation: nida infinite 3s;
+    position: absolute;
+} */
+
+
+/* @keyframes nida {
+    from{left:0px;background-color: red;}
+    to{left:200px;background-color: yellow;}
+} */
+
+/* @keyframes nida {
+    from{top:0px;background-color: red; width: 600px;}
+    to{top:200px;background-color: yellow; width: 600px;}
+} */
+/* .main{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+} */
+
+
+
+/* .box1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    grid-row: 1/3;
+} */
+/* .box2{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+} */
+/* .box3{
+    height: 200px;
+    width: 200px;
+    background-color:orange;
+} */
+/* .box4{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+} */
+/* .box5{
+    height: 200px;
+    width:200px;
+    background-color: aqua;
+} */
+/* .box6{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+} */
+ /* .box1{
+    height: 200px;
+    width: auto;
+    background-color: red;
+    grid-column: 1/3;
+ } */
+ /* .box2{
+    height: 200px;
+    width: auto;
+    grid-column: 1/3;
+
+    background-color: yellow;
+ } */
+ /* .box3{
+    height: 200px;
+    width: 100%;
+    background-color: green;
+    grid-column: 1/2;
+ } */
+ /* .box4{
+    height: 200px;
+    width: 100%;grid-column: 2/3;
+    background-color: aqua;
+ } */
+ /* .box5{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+ } */
+ /* .box6{
+    height: 400px;
+    width: auto;
+    background-color: aqua;
+
+ } */
+
+ .box{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    margin: 100px 0 0 500px;
+    transition: 3s;
+    border-radius: 100px;
+
+ }
+ .box:hover{
+    /* transform:skew(100deg);
+    transform: rotateY(300deg);
+    transform: scale(1.2);
+    transform: translate(300px,300px); */
+    transform: rotate(300deg) skew(200deg) scale(1.2) translate(100px,100px);
+    /* transform: translate(200px,200px) */
+ }
